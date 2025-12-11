@@ -1,12 +1,5 @@
 # Uhrzeit-als-Text
 
-Aufgabenstellung:
+Bei dieser Aufgabe war es das Ziel, ein Programm zu entwickeln, das eine Uhrzeit mit Stunden **(1–12)** und Minuten **(0–59)** einliest und anschließend eine **sprachliche Formulierung** der Zeit ausgibt. Für die Minutenstände **00**, **15**, **30** und **45** sollten die speziellen Ausdrücke *„punkt“*, *„viertel nach“*, *„halb“* und *„dreiviertel“* verwendet werden. Bei ungültigen Eingaben musste das Programm stattdessen ***„***“ ausgeben.
 
-Entwickeln Sie ein Programm, das eine Uhrzeit in Stunden von 1-12 und Minuten von 0-59 einliest und in Worten formuliert ausgibt. Für den Minutenstand 00, 15, 30 und 45 soll entsprechend "punkt", "viertel nach", "halb" und "dreiviertel" ausgegeben werden. Für ungültige Uhrzeiten soll die Ausgabe "***" sein.
-
-Hinweise:
-• Verwenden Sie für die Aufgabe Integer-Division (/) und Restwertbildung (%).
-• Beachten Sie die Bildungsgesetze für die textuelle Ausgabe von Zahlen 11, 12, 13, 14, 15, 16, 17, 18, 19 im Gegensatz zu 21, 22, ...
-• Verwenden Sie, wenn sinnvoll, die switch-Anweisung.
-
-Testen Sie das Programm mit unterschiedlichen Eingaben.
+Für die Umsetzung sollten **Integer-Division** und **Modulo (%)**, die korrekte Bildung von Zahlwörtern (insbesondere bei 11–19) sowie – wo sinnvoll – eine **switch-Anweisung** genutzt werden. Das Programm sollte abschließend mit verschiedenen Eingaben getestet werden.
